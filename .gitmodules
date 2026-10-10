@@ -1,0 +1,4 @@
+[submodule "moodle/public/mod/attendance"]
+	path = moodle/public/mod/attendance
+	url = https://github.com/danmarsden/moodle-mod_attendance.git
+	branch = MOODLE_503_STABLE
