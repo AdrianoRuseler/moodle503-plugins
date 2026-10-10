@@ -2,3 +2,7 @@
 	path = moodle/public/mod/attendance
 	url = https://github.com/danmarsden/moodle-mod_attendance.git
 	branch = MOODLE_503_STABLE
+[submodule "moodle/public/mod/customcert"]
+	path = moodle/public/mod/customcert
+	url = https://github.com/markn86/moodle-mod_customcert.git
+	branch = MOODLE_503_STABLE
