@@ -1,5 +1,5 @@
-# moodle502-plugins
-Plugins for [Moodle 5.2](https://github.com/moodle/moodle/tree/MOODLE_502_STABLE)
+# moodle503-plugins
+Plugins for [Moodle 5.3](https://github.com/moodle/moodle/tree/MOODLE_503_STABLE)
 
 [![Update Submodules](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/update-submodules.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/update-submodules.yml)
 [![Create Release](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/release.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle502-plugins/actions/workflows/release.yml)
@@ -7,9 +7,9 @@ Plugins for [Moodle 5.2](https://github.com/moodle/moodle/tree/MOODLE_502_STABLE
 ## Moodle Update
 ```bash
 export MDLREPO="https://github.com/moodle/moodle.git"
-export MDLBRANCH="MOODLE_502_STABLE"  # GIT Branch for moodle core
+export MDLBRANCH="MOODLE_503_STABLE"  # GIT Branch for moodle core
 export MDLCORE="mdlcore" # Temp folder for moodle core
-export PLGREPO="https://github.com/AdrianoRuseler/moodle502-plugins.git"
+export PLGREPO="https://github.com/AdrianoRuseler/moodle503-plugins.git"
 export PLGBRANCH="main" # GIT Branch for moodle plugins
 export MDLPLGS="mdlplugins" # Temp folder for moodle plugins
 # Moodle software (For example, everything in server/htdocs/moodle)
@@ -36,7 +36,7 @@ sudo rm -rf /tmp/$MDLPLGS
 sudo rm -rf /tmp/$MDLCORE
 ```
 ## Moodle config.php
-- https://docs.moodle.org/502/en/Configuration_file
+- https://docs.moodle.org/503/en/Configuration_file
 
 ``` php
 // Use the following flag to completely disable the installation of plugins
@@ -63,7 +63,7 @@ $CFG->routerconfigured = true;
 
 - https://github.com/danmarsden/moodle-mod_attendance/
 ```bash
-git submodule add -b MOODLE_501_STABLE https://github.com/danmarsden/moodle-mod_attendance.git mod/attendance
+git submodule add -b MOODLE_503_STABLE https://github.com/danmarsden/moodle-mod_attendance.git mod/attendance
 ```
 - https://github.com/ndunand/moodle-mod_choicegroup
 ```bash
@@ -95,7 +95,7 @@ git submodule add -b main https://github.com/academic-moodle-cooperation/moodle-
 ```
 - https://github.com/markn86/moodle-mod_customcert
 ```bash
-git submodule add -b MOODLE_502_STABLE https://github.com/markn86/moodle-mod_customcert.git mod/customcert
+git submodule add -b MOODLE_503_STABLE https://github.com/markn86/moodle-mod_customcert.git mod/customcert
 ```
 - https://github.com/bostelm/moodle-mod_scheduler
 ```bash
@@ -108,7 +108,7 @@ git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle
 
 - https://github.com/mudrd8mz/moodle-mod_subcourse
 ```bash
-git submodule add -b MOODLE_501_STABLE https://github.com/mudrd8mz/moodle-mod_subcourse.git mod/subcourse
+git submodule add -b MOODLE_503_STABLE https://github.com/mudrd8mz/moodle-mod_subcourse.git mod/subcourse
 ```
 
 - https://github.com/ecampbell/moodle-booktool_wordimport
@@ -171,9 +171,9 @@ git submodule add -b master https://github.com/deraadt/moodle-block_completion_p
 git submodule add -b MOODLE_500_STABLE https://github.com/catalyst/moodle-block_dedication.git blocks/dedication
 ```
 
-- https://github.com/donhinkelman/moodle-block_sharing_cart
+- https://github.com/praxisdigital/moodle-block_sharing_cart
 ```bash
-git submodule add -b MOODLE_52_STABLE https://github.com/donhinkelman/moodle-block_sharing_cart.git blocks/sharing_cart
+git submodule add -b MOODLE_52_STABLE https://github.com/praxisdigital/moodle-block_sharing_cart.git blocks/sharing_cart
 ```
 
 ### REPORT
@@ -284,12 +284,12 @@ git submodule add -b master https://github.com/Syxton/moodle-tool_coursearchiver
 ```
 - https://github.com/moodle-an-hochschulen/moodle-tool_redis
 ```bash
-git submodule add -b MOODLE_502_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
+git submodule add -b MOODLE_503_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
 ```
 
 - https://github.com/moodle-an-hochschulen/moodle-tool_opcache
 ```bash
-git submodule add -b MOODLE_502_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git admin/tool/opcache
+git submodule add -b MOODLE_503_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git admin/tool/opcache
 ```
 
 - https://github.com/moodlehq/moodle-tool_migratehvp2h5p
