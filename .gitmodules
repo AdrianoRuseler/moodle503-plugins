@@ -114,3 +114,23 @@
 	path = moodle/public/blocks/dedication
 	url = https://github.com/catalyst/moodle-block_dedication.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/public/report/coursesize"]
+	path = moodle/public/report/coursesize
+	url = https://github.com/catalyst/moodle-report_coursesize.git
+	branch = MOODLE_401_STABLE
+[submodule "moodle/public/report/benchmark"]
+	path = moodle/public/report/benchmark
+	url = https://github.com/mikasmart/moodle-report_benchmark.git
+	branch = master
+[submodule "moodle/public/report/allbackups"]
+	path = moodle/public/report/allbackups
+	url = https://github.com/catalyst/moodle-report_allbackups.git
+	branch = MOODLE_404_STABLE
+[submodule "moodle/public/report/customsql"]
+	path = moodle/public/report/customsql
+	url = https://github.com/moodleou/moodle-report_customsql.git
+	branch = main
+[submodule "moodle/public/blocks/rbreport"]
+	path = moodle/public/blocks/rbreport
+	url = https://github.com/moodleworkplace/moodle-block_rbreport.git
+	branch = MOODLE_500_STABLE
