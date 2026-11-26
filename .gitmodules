@@ -66,3 +66,23 @@
 	path = moodle/public/mod/journal
 	url = https://github.com/elearningsoftware/moodle-mod_journal.git
 	branch = master
+[submodule "moodle/public/admin/tool/certificate"]
+	path = moodle/public/admin/tool/certificate
+	url = https://github.com/moodleworkplace/moodle-tool_certificate.git
+	branch = MOODLE_500_STABLE
+[submodule "moodle/public/admin/tool/coursearchiver"]
+	path = moodle/public/admin/tool/coursearchiver
+	url = https://github.com/Syxton/moodle-tool_coursearchiver.git
+	branch = master
+[submodule "moodle/public/admin/tool/redis"]
+	path = moodle/public/admin/tool/redis
+	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
+	branch = MOODLE_503_STABLE
+[submodule "moodle/public/admin/tool/opcache"]
+	path = moodle/public/admin/tool/opcache
+	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
+	branch = MOODLE_503_STABLE
+[submodule "moodle/public/admin/tool/migratehvp2h5p"]
+	path = moodle/public/admin/tool/migratehvp2h5p
+	url = https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git
+	branch = main
