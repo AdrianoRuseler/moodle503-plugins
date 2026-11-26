@@ -10,3 +10,7 @@
 	path = moodle/public/course/format/softcourse
 	url = https://github.com/DigiDago/moodle-format_softcourse.git
 	branch = MOODLE_503_STABLE
+[submodule "moodle/public/mod/hvp"]
+	path = moodle/public/mod/hvp
+	url = https://github.com/h5p/h5p-moodle-plugin.git
+	branch = stable
