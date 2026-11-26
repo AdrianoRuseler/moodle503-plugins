@@ -102,3 +102,15 @@
 	path = moodle/public/lib/editor/tiny/plugins/wordimport
 	url = https://codeberg.org/linos/moodle-tiny_wordimport.git
 	branch = main
+[submodule "moodle/public/blocks/xp"]
+	path = moodle/public/blocks/xp
+	url = https://github.com/FMCorz/moodle-block_xp.git
+	branch = master
+[submodule "moodle/public/blocks/completion_progress"]
+	path = moodle/public/blocks/completion_progress
+	url = https://github.com/deraadt/moodle-block_completion_progress.git
+	branch = master
+[submodule "moodle/public/blocks/dedication"]
+	path = moodle/public/blocks/dedication
+	url = https://github.com/catalyst/moodle-block_dedication.git
+	branch = MOODLE_500_STABLE
