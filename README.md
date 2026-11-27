@@ -173,7 +173,7 @@ git submodule add -b MOODLE_500_STABLE https://github.com/catalyst/moodle-block_
 
 - https://github.com/praxisdigital/moodle-block_sharing_cart
 ```bash
-git submodule add -b MOODLE_52_STABLE https://github.com/praxisdigital/moodle-block_sharing_cart.git blocks/sharing_cart
+git submodule add -b MOODLE_53_STABLE https://github.com/praxisdigital/moodle-block_sharing_cart.git blocks/sharing_cart
 ```
 
 ### REPORT
@@ -268,10 +268,15 @@ git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfcbmexpl
 ```bash
 git submodule add -b master https://github.com/maths/moodle-qbehaviour_adaptivemultipart.git question/behaviour/adaptivemultipart
 ```		
+- https://github.com/maths/moodle-qbank_importasversion
+```bash
+git submodule add -b MOODLE_503_STABLE https://github.com/maths/moodle-qbank_importasversion.git question/bank/importasversion
+```	
 - https://github.com/maths/moodle-qtype_stack
 ```bash
 git submodule add -b master https://github.com/maths/moodle-qtype_stack.git question/type/stack
 ```
+
 
 ### ADMIN
 - https://github.com/moodleworkplace/moodle-tool_certificate
@@ -351,13 +356,18 @@ git submodule add -b develop https://github.com/turnitin/moodle-plagiarism_turni
 
 - https://github.com/moodleuulm/moodle-local_sandbox
 ```bash
-git submodule add -b MOODLE_502_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
+git submodule add -b MOODLE_503_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
 ```
 
 - https://github.com/AdrianoRuseler/moodle-local_accessibility
 ```bash
 git submodule add -b main https://github.com/AdrianoRuseler/moodle-local_accessibility.git local/accessibility
 ```
+
+- https://github.com/ralferlebach/moodle-local_stackmatheditor
+```bash
+git submodule add -b main https://github.com/ralferlebach/moodle-local_stackmatheditor.git  /local/stackmatheditor
+```	
 
 ## Removed from core
 - https://github.com/moodlehq/moodle-mod_chat
