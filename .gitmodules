@@ -134,3 +134,7 @@
 	path = moodle/public/blocks/rbreport
 	url = https://github.com/moodleworkplace/moodle-block_rbreport.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/public/blocks/sharing_cart"]
+	path = moodle/public/blocks/sharing_cart
+	url = https://github.com/praxisdigital/moodle-block_sharing_cart.git
+	branch = MOODLE_52_STABLE
