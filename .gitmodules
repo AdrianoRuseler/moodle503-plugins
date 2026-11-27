@@ -137,7 +137,7 @@
 [submodule "moodle/public/blocks/sharing_cart"]
 	path = moodle/public/blocks/sharing_cart
 	url = https://github.com/praxisdigital/moodle-block_sharing_cart.git
-	branch = MOODLE_52_STABLE
+	branch = MOODLE_53_STABLE
 [submodule "moodle/public/availability/condition/relativedate"]
 	path = moodle/public/availability/condition/relativedate
 	url = https://github.com/ewallah/moodle-availability_relativedate.git
