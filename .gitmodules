@@ -214,3 +214,7 @@
 	path = moodle/public/theme/boost_union
 	url = https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git
 	branch = MOODLE_503_STABLE
+[submodule "moodle/public/question/bank/importasversion"]
+	path = moodle/public/question/bank/importasversion
+	url = https://github.com/maths/moodle-qbank_importasversion.git
+	branch = MOODLE_503_STABLE
