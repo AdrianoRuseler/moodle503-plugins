@@ -138,3 +138,15 @@
 	path = moodle/public/blocks/sharing_cart
 	url = https://github.com/praxisdigital/moodle-block_sharing_cart.git
 	branch = MOODLE_52_STABLE
+[submodule "moodle/public/availability/condition/relativedate"]
+	path = moodle/public/availability/condition/relativedate
+	url = https://github.com/ewallah/moodle-availability_relativedate.git
+	branch = main
+[submodule "moodle/public/availability/condition/sectioncompleted"]
+	path = moodle/public/availability/condition/sectioncompleted
+	url = https://github.com/bdecentgmbh/moodle-availability_sectioncompleted.git
+	branch = main
+[submodule "moodle/public/availability/condition/ipaddress"]
+	path = moodle/public/availability/condition/ipaddress
+	url = https://github.com/MFreakNL/moodle-availability_ipaddress.git
+	branch = main
